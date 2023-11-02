@@ -1,8 +1,13 @@
-# React + Vite
+React assigment - 2 : Counter App
+Total points = 5
+Purpose of this assignment : Testing my skills on
+useState() hook
+Event Handler
+conditional rendering
+Assignment steps:
+part 1: make sure that increment, decrement and reset functionality works (3 points)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+part 2: disable buttons(2 points)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+disable increment button when count value is 5
+disable decrement button when count value is -5
