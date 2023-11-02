@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: #1d2f6c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.counter{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    height:700px;
+    
+}
+.counter h1{
+   
+}
+.counterDiv{
+    width: 400px;
+    height: 200px;
+    background: rgb(32, 32, 130);
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 10px 10px 144px 0px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 10px 10px 144px 0px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 10px 10px 144px 0px rgba(0,0,0,0.75) inset;
+border-radius: 10px;
+}
+.countTheValue{
+    margin-top: 50px;
+}
+.btnOne{
+    width: 80px;
+    height: 40px;
+    background: rgb(104, 104, 228);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .5s;
+    cursor: pointer;
+}
+.btnOne:hover{
+    background: rgb(17, 17, 71);
+}
